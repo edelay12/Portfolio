@@ -68,13 +68,13 @@ $(document).ready(function() {
 
   let about = new TimelineMax();
 
-  about.from(".aboutDescription", 1.3, {
+  about.from(".aboutFrame", 1.3, {
     opacity: 0,
     scale: 0.7,
     y: 150,
     ease: Power1.easeInout
   });
-  //t1.to('.header', 1, {opacity:1, scale: 3})
+
   const scene3 = new ScrollMagic.Scene({
     triggerElement: ".fas"
   })
@@ -89,7 +89,7 @@ $(document).ready(function() {
     scale: 0.7,
     ease: Power1.easeInout
   });
-  //t1.to('.header', 1, {opacity:1, scale: 3})
+
   const scene4 = new ScrollMagic.Scene({
     triggerElement: ".contactContainer"
   })
@@ -103,7 +103,7 @@ $(document).ready(function() {
     x: 150,
     ease: Power1.easeInout
   });
-  //t1.to('.header', 1, {opacity:1, scale: 3})
+
   const scene5 = new ScrollMagic.Scene({
     triggerElement: ".contactContainer"
   })
