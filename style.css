@@ -32,7 +32,7 @@ body {
   color: black;
   font-size: 22px;
   font-weight: 600;
-
+  letter-spacing: 2px;
   width: 5.5vh;
   height: 5.5vh;
   padding: 8px 5px;
@@ -52,7 +52,7 @@ body {
   letter-spacing: 1.5px;
   padding: 5px 15px;
   font-size: 18px;
-  color: var(--lightBlue); 
+  color: var(--lightBlue);
 }
 .nav-links a:hover {
   border-bottom: 1px solid var(--lightBlue);
@@ -147,8 +147,6 @@ section {
   padding: 10px 100px;
   margin-top: 25px;
   background: #fff;
-
-
 }
 .headerContainer {
   text-align: center;
@@ -166,7 +164,7 @@ section {
 .headerContainer :after {
   content: " ";
   display: block;
-  border: 5px solid var(--lightBlue);
+  border: 3px solid var(--lightBlue);
   margin: auto;
   margin-top: 30px;
   width: 150px;
@@ -193,10 +191,12 @@ section {
   position: relative;
   width: 40%;
   min-height: 100%;
+  box-shadow: var(--shadow);
 }
 .profile {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .discription {
   border-radius: 16px;
@@ -242,6 +242,8 @@ section {
   display: block;
   height: 100%;
   width: 100%;
+  box-shadow: var(--shadow);
+  object-fit: cover;
 }
 .imageContainer {
   display: flex;
@@ -249,6 +251,7 @@ section {
   width: 45%;
   min-height: 100%;
   overflow: hidden;
+  box-shadow: var(--shadow);
 }
 
 .discriptionContainer {
@@ -335,7 +338,6 @@ section {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   box-shadow: var(--shadow);
-  
 }
 form {
   width: 100%;
@@ -359,7 +361,7 @@ fieldset {
   width: 350px;
   border: none;
   height: 5vh;
-  margin: 20px auto;
+  margin: 10px auto;
   background: #525f7f;
   border-radius: 290486px;
   padding: 20px;
@@ -451,7 +453,6 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-
   .aboutFrame {
     flex-direction: column;
     height: fit-content;
@@ -475,6 +476,7 @@ footer {
     border-radius: 16px;
     width: 50%;
     max-height: 35% !important;
+    object-fit: cover;
   }
   .discription {
     margin-top: 10px;
@@ -606,7 +608,6 @@ footer {
   }
 
   .contactContainer {
-  
     padding: 40px 0px 0px 0px;
   }
   .contactFrame {

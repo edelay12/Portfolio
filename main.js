@@ -44,7 +44,7 @@ $(document).ready(function() {
     y: 150,
     ease: Power1.easeInout
   });
-  //t1.to('.header', 1, {opacity:1, scale: 3})
+
   const scene1 = new ScrollMagic.Scene({
     triggerElement: "#projects"
   })
@@ -59,7 +59,7 @@ $(document).ready(function() {
     y: 150,
     ease: Power4.easeInout
   });
-  //t1.to('.header', 1, {opacity:1, scale: 3})
+
   const scene2 = new ScrollMagic.Scene({
     triggerElement: ".p1"
   })
@@ -117,7 +117,7 @@ $(document).ready(function() {
     y: 200,
     ease: Power1.easeInout
   });
-  //t1.to('.header', 1, {opacity:1, scale: 3})
+
   const scene6 = new ScrollMagic.Scene({
     triggerElement: ".contactContainer"
   })
