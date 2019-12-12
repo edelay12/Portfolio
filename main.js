@@ -21,7 +21,6 @@ $(document).ready(function() {
   // scroll smoothly //
   $('a[href^="#"]').on("click", function(e) {
     e.preventDefault();
-    console.log(this);
     navRun();
     let target = this.hash;
     let $target = $(target);
