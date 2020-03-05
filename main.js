@@ -33,7 +33,8 @@ $(document).ready(function() {
     );
   });
 
-  // animation //
+  // animation - DISABLED //
+  /*
   let t1 = new TimelineMax();
   const controller = new ScrollMagic.Controller();
 
@@ -122,4 +123,5 @@ $(document).ready(function() {
   })
     .setTween(subButton)
     .addTo(controller);
+    */
 });
