@@ -138,7 +138,7 @@ section {
   display: block;
   height: 100%;
   width: 100%;
-  padding: 0px 95px;
+  padding: 0px 100px;
 }
 .wrapperContact {
   display: block;
@@ -173,6 +173,7 @@ section {
   background: #feffff;
   border-radius: 16px;
   box-shadow: var(--shadow);
+
   height: 92vh;
   width: 100%;
 }
@@ -180,7 +181,7 @@ section {
 .aboutFrame {
   position: relative;
   display: flex;
-  height: 500px;
+  height: auto;
   background: #fff;
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -188,20 +189,20 @@ section {
 
 .profile-container {
   position: relative;
-  max-width: fit-content;
+  width: 40%;
   min-height: 100%;
-  min-width: 25%;
   box-shadow: var(--shadow);
 }
 .profile {
   height: 100%;
-  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .description {
   border-radius: 16px;
   display: flex;
   flex-direction: column;
-  min-width: 70%;
+  width: 70%;
   height: 100%;
   padding: 60px;
   color: #1a237e;
@@ -230,7 +231,7 @@ section {
 }
 .projectFrame {
   display: flex;
-  height: 400px;
+  height: auto;
   flex-direction: row;
   position: relative;
   padding: 0;
@@ -238,33 +239,25 @@ section {
   overflow: hidden;
 }
 
-.projectImage {
+.projectImage , .project2Image{
   display: block;
   height: 100%;
   width: 100%;
   box-shadow: var(--shadow);
+  object-fit: cover;
 }
-
-.project1Image {
-  object-fit: fill;
-}
-
-.project2Image {
-  object-fit: stretch;
-}
-
 .imageContainer , .imageContainer2{
   display: flex;
   position: relative;
-  width: 50%;
+  width: 45%;
   min-height: 100%;
   overflow: hidden;
   box-shadow: var(--shadow);
 }
 
 .descriptionContainer {
-  max-width: 60%;
-  height: fit-content;
+  width: 70%;
+  height: 100%;
   padding: 60px;
 }
 .projectTitle {
@@ -279,10 +272,11 @@ section {
   margin: 0 0 30px;
   font-size: 16px;
 }
+
 .projectDescriptionSmall {
   color: #1a237e;
   margin: 0 0 30px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .projectTech {
