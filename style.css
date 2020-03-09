@@ -272,12 +272,14 @@ section {
   margin: 0 0 30px;
   font-size: 16px;
   word-break: break-all;
+  position: relative;
 }
 
 .projectDescriptionSmall {
   color: #1a237e;
   margin: 0 0 30px;
   font-size: 12px;
+  word-break: break-all;
 }
 
 .projectTech {
