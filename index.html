@@ -13,13 +13,12 @@
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
         <nav>
             <ul class="nav-links" id="nav-links">
                 <li><a class="resumeLink"
-                        href="https://github.com/edelay12/Portfolio/blob/master/assets/resume.pdf"
+                        href="https://docs.google.com/document/d/1s5JuD6YYab6UcBa7nmxbiFDOjcZPwvYmDGejXJBSLi0/edit?usp=sharing"
                         target="_blank">Resume</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -60,33 +59,59 @@
 
             <div class="description aboutDescription">
                 <span>My name is Evan Miller. I am a recent graduate from Lindenwood
-                    University and a current student of the Web Development Track at
-                    Thinkful. I have been passionate about computers ever since being
-                    introduced to them by my father in grade school. Whether it's front
-                    end or back end work, I love learning about new frameworks,  libraries
-                    and seeing new ideas come to life on the page. When I am not working
-                    on projects, I am often found working on my car, fishing, at local car
-                    meets, or at the gym.  </br></br>Currently I am looking for work and can be
+                    University with my bachelor's in Business Administration and a recent graduate from Thinkful's Full-Stack Web Development program. I have been passionate about computers ever since first being
+                    introduced to them by my father. Whether it's front
+                    end or back end work, I love learning about new frameworks, libraries
+                    and seeing new ideas come to life on the page. When I am not working,
+                    I am often found working on my car, fishing, at local car
+                    meets, or at the gym.  </br></br>Currently I am open to new positions and can be
                     contacted here:</br>
-
                 </span>
                 <div class="linkContainer">
-
                     <a class="linkTo" href="mailto:evandelaymiller12@gmail.com">Gmail<i
                             class="fas fa-at linkTo-I"></i></a>
                     <a class="linkTo" href="https://www.linkedin.com/in/evan-miller-b3b278182"
                         target="_blank">LinkedIn<i class="fab fa-linkedin linkTo-I"></i></a>
                 </div>
-
             </div>
-
         </section>
         <!--   -------------   Projects  -------------   -->
 
         <div class="headerContainer projectsContainer">
             <h1 class="header" id="projects">Projects</h1>
         </div>
+        
         <section class="frame projectFrame p1">
+            <div class="imageContainer">
+                <img src="assets/BugTrax_screen_1.png"
+                    class="projectImage project2Image" alt="quiz app image">
+            </div>
+
+            <div class="descriptionContainer">
+                <h3 class="projectTitle">BugTrax</h3>
+                <p class="projectDescription"> This project is a bug/issue management tracking system that features issue tracking, team chat, and trends for your team's performance. The features of this app were inspired by
+                    Mantisbt.
+                </p>
+                <div class="projectTech">
+                    <span class="techLabel">React</span>
+                    <span class="techLabel">CSS</span>
+                    <span class="techLabel">Node</span>
+                    <span class="techLabel">Express</span>
+                    <span class="techLabel">PostgreSQL</span>
+                </div>
+                <div class="projectLinks">
+                    <a class="projectLink1" href="https://bugtrax-app.now.sh/" target="_blank">Live
+                        Demo</a>
+                    <a class="projectLink2" href="https://github.com/edelay12/BugTrax-Client" target="_blank">View
+                        Source</a>
+                    <a class="projectLink2" href="https://github.com/edelay12/BugTrax-Client" target="_blank">API
+                        Source</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer"></div>
+        <section class="frame projectFrame p3">
             <div class="imageContainer">
                 <img src="https://github.com/edelay12/eStore-client/blob/master/public/screenshots/java_screen_2.png?raw=true"
                     class="projectImage project2Image" alt="quiz app image">
@@ -118,7 +143,7 @@
         </section>
 
         <div class="spacer"></div>
-        <section class="frame projectFrame p2">
+        <section class="frame projectFrame p4">
             <div class="imageContainer2">
                 <img src="assets/carsearch-screen.PNG" class="projectImage project2Image" alt="CarSearch Image">
             </div>
@@ -142,6 +167,32 @@
                 </div>
             </div>
         </section>
+
+        <div class="spacer"></div>
+        <section class="frame projectFrame p2">
+        <div class="imageContainer2">
+            <img src="assets/Pokedex-challenge-screen.png" class="projectImage project1Image"
+                alt="Pokedex challenge image">
+        </div>
+
+        <div class="descriptionContainer">
+            <h3 class="projectTitle">React Pokedex Challenge</h3>
+            <p class="projectDescription">A fun little react program I was challenged to create. It fetches a public Pokemon API and display's them all in a stylish and functional way.
+                View the directions for the challenge <a href='https://drive.google.com/file/d/133DROYUUNLpkaOX1qXfnNO5Q0-mSWpSC/view?usp=sharing' target='_blank'>here</a>. 
+            </p>
+            <div class="projectTech">
+                <span class="techLabel">React</span>
+                <span class="techLabel">CSS</span>
+                <span class="techLabel">JavaScript</span>
+            </div>
+            <div class="projectLinks">
+                    <a class="projectLink1" href="https://pokedex-app-kvpczrp45.now.sh/" target="_blank">Live
+                        Demo</a>
+                    <a class="projectLink2" href="https://github.com/edelay12/React-Pokedex-Challenge" target="_blank">View
+                        Source</a>
+            </div>
+        </div>
+    </section>
 
         <div class="spacer"></div>
         <section class="frame projectFrame p2">
@@ -183,12 +234,11 @@
 
                     <div class="descriptionContainer">
                         <h3 class="projectTitle">Coronavirus Tracker</h3>
-                        <p class="projectDescription">With the unfortunate prevail of the Coronavirus, I decided
-                            make something that would allow people to have a central location with information regarding
-                            the virus. The app gives live data, news, CDC updates, and other information regarding
+                        <p class="projectDescription">In January 2020, before it made it's way to the US, I created this as a way to get a better understanding of React Native.
+                           The app gives live data, news, CDC updates, and other information regarding
                             COVID-19.
-                            I created the back end with Node and developed a web scraper to scrape the data from various
-                            places(all under open use policy) when the server gets a request.
+                            I created the back end with Node and decided to create a web scraper togather data from various
+                            places when the server gets a request.
                         </p>
                         <div class="projectTech">
                             <span class="techLabel">React Native</span>
@@ -199,33 +249,8 @@
                         <div class="projectLinks">
                        <a class="projectLink1">Android</a>
                        <a class="projectLink1">IOS</a>
-                    <a class="projectLink2"><strike>View
-                        Source</strike></a>
-                        </div>
-                    </div>
-                </section>
-
-                <div class="spacer"></div>
-                <section class="frame projectFrame p1">
-                    <div class="imageContainer">
-                        <img src="assets/ezgif.com-optimize.gif" class="projectImage project1Image"
-                            alt="quiz app image">
-                    </div>
-
-                    <div class="descriptionContainer">
-                        <h3 class="projectTitle">Multiple Choice JavaScript Quiz</h3>
-                        <p class="projectDescription">A small but challenging JavaScript quiz, created to showcase JQuery, HTML, and CSS.
-                        </p>
-                        <div class="projectTech">
-                            <span class="techLabel">HTML</span>
-                            <span class="techLabel">CSS</span>
-                            <span class="techLabel">JavaScript</span>
-                        </div>
-                        <div class="projectLinks">
-                            <a class="projectLink1" href="https://edelay12.github.io/JavaScript-Quiz/"
-                                target="_blank">Live Demo</a>
-                            <a class="projectLink2" href="https://github.com/edelay12/JavaScript-Quiz"
-                                target="_blank">View Source</a>
+                    <a href='https://github.com/edelay12/CoronavirusTracker/tree/master' class="projectLink2">View
+                        Source</a>
                         </div>
                     </div>
                 </section>

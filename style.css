@@ -271,7 +271,6 @@ section {
   color: #1a237e;
   margin: 0 0 30px;
   font-size: 16px;
-  word-break: break-all;
   position: relative;
 }
 
@@ -546,10 +545,12 @@ footer {
     z-index: 4;
     transition: all 0.3s ease;
   }
+  
   .line1.toggle {
     transform: rotate(-45deg) translate(-2px, 5px);
     background: #fff;
   }
+
   .line2.toggle {
     opacity: 0;
   }
