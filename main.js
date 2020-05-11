@@ -38,7 +38,7 @@ $(document).ready(function() {
   let t1 = new TimelineMax();
   const controller = new ScrollMagic.Controller();
 
-  t1.from(".p1", 0.7, {
+  t1.from(".p1", 0.5, {
     opacity: 0,
     scale: 0.7,
     y: 150,
@@ -53,7 +53,7 @@ $(document).ready(function() {
 
   let t2 = new TimelineMax();
 
-  t2.from(".p2", 0.7, {
+  t2.from(".p2", 0.5, {
     opacity: 0,
     scale: 0.7,
     y: 150,
@@ -68,7 +68,7 @@ $(document).ready(function() {
 
   let about = new TimelineMax();
 
-  about.from(".aboutFrame", 1.3, {
+  about.from(".aboutFrame", .5, {
     opacity: 0,
     scale: 0.7,
     y: 150,
